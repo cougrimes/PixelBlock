@@ -24,7 +24,7 @@ var pixelblock = (function(){
                    {name:'Infusionsoft', pattern:'infusionsoft.com/app/emailOpened',  url:'http://infusionsoft.com'},
                    {name:'Intercom',     pattern:'via.intercom.io/o',      url:'http://intercom.io'},
                    {name:'Mandrill',     pattern:'mandrillapp.com/track',  url:'http://mandrillapp.com'},
-                   {name:'Hubspot',      pattern:'t.hsms06.com',           url:'http://hubspot.com'},
+                   {name:'Hubspot',      pattern:'e1t/0',   		        url:'http://hubspot.com'},
                    {name:'RelateIQ',     pattern:'app.relateiq.com/t.png', url:'http://relateiq.com'},
                    {name:'RJ Metrics',   pattern:'go.rjmetrics.com',       url:'http://rjmetrics.com'},
                    {name:'Mixpanel',     pattern:'api.mixpanel.com/track', url:'http://mixpanel.com'},
@@ -32,6 +32,10 @@ var pixelblock = (function(){
                    {name:'Mailtrack.io', pattern:'mailtrack.io/trace',     url:'http://mailtrack.io'},
                    {name:'ToutApp',      pattern:'go.toutapp.com',         url:'http://toutapp.com'},
                    {name:'Outreach',     pattern:'app.outreach.io',        url:'http://outreach.io'},
+				   {name:'Litmus',       pattern:'emltrk.com',      	    url:'https://litmus.com/'},
+				   {name:'Marketo',      pattern:'trk?t=3D1&mid=3D',       url:'https://www.marketo.com/'},
+				   {name:'Brierly',      pattern:'brierleycrm.com/tr',     url:'http://www.brierley.com/'},
+				   {name:'Act-On',       pattern:'acton/o',                url:'https://www.act-on.com/'},
                    ];
 
   /*
